@@ -5,19 +5,51 @@
     margin: 0;
     box-sizing: border-box;
 }
-#barra-branca {
+.conteiner{
     height: 90px; /* Altura desejada da barra branca */
     background-color: white; /* Cor da barra branca */
+    display: flex;
 }
-#barra-brancah1 {
-    text-align: left;
+#inicio{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    font-size: 15pt;
 }
-header{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+div.item > h1{
+    text-align: center;
+    
 }
-.barra-branca#h1{
-    text-align: left;
+header {
+    background-color: #ffffff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.conteiner > h1{
+    padding-top: 10%;
+}
+nav{
+    margin-left: 800px;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alteração para exibir os itens do menu na horizontal */
+    padding-top: 10%;
+    text-decoration: none;
+    
+}
+nav li {
+    margin-right: 20px;
+    text-decoration: none;
 }
 h1{
     text-align: center;
@@ -30,4 +62,23 @@ body{
     background: url(pexels-dana-tentis-370799.jpg);
     background-size: cover;
     margin: 0;
+}
+.item > h1{
+    font-size: 15pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+}
+.item2 > h1{
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+}
+.click{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
